@@ -1,0 +1,1 @@
+SELECT * FROM employees WHERE department = 'Sales' AND salary > 100000 AND salary NOT IN (SELECT salary FROM employees WHERE department = 'Sales' AND salary < 50000); 
