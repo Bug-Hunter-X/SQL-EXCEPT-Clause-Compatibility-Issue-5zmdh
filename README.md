@@ -1,0 +1,1 @@
+This repository demonstrates a potential SQL code error related to the use of the EXCEPT set operator. The `bug.sql` file contains a query that uses EXCEPT, which might not be supported by all SQL database systems. The `bugSolution.sql` file provides alternative approaches to achieve the same result using standard SQL functions that are generally more compatible.
